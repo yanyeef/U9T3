@@ -40,4 +40,18 @@ public class Vehicle
   {
     return tollFee * passengers;
   }
+
+  public void printInfo(){
+    System.out.println("License plate: " + licensePlate);
+    System.out.println("Toll fee: " + tollFee);
+    System.out.println("Passengers: " + passengers);
+  }
+
+  public void gas(int gas1){
+    if(gas1 <5){
+      System.out.println("You just refilled on gas. You now have 5 gallons");
+    } else {
+      System.out.println("You have enough gas ");
+    }
+  }
 }
