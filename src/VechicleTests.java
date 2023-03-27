@@ -44,8 +44,20 @@ public class VechicleTests
     myTruck3.printInfo();
 
 
-    Taxi myTaxi4 = new Taxi("TX1412", 13.75, 4, true, 2.0);
+    Taxi myTaxi4 = new Taxi("MX1412", 13.75, 4, true, 2.0);
     myTaxi4.printInfo();
 
+    Vehicle myVehicle4 = new Vehicle("BP1823", 6.25, 5);
+    myVehicle4.gas(4);
+
+    Car myCar4 = new Car("MK4567", 6.75, 4, true);
+    myCar4.gas(10);
+
+    Truck myTruck4 = new Truck("TB12MX", 15.50, 2, 4, true);
+    myTruck4.gas(1);
+
+
+    Taxi myTaxi5 = new Taxi("TX1412", 13.75, 4, true, 2.0);
+    myTaxi5.gas(5);
   }
 }
